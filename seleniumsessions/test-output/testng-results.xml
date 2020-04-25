@@ -1,63 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9495" started-at="2020-04-25T15:03:38Z" finished-at="2020-04-25T15:03:47Z">
+  <suite name="Default suite" duration-ms="29" started-at="2020-04-25T15:30:19Z" finished-at="2020-04-25T15:30:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9495" started-at="2020-04-25T15:03:38Z" finished-at="2020-04-25T15:03:47Z">
-      <class name="aabbccdd.Login_four">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2020-04-25T15:03:38Z" finished-at="2020-04-25T15:03:38Z">
+    <test name="Default test" duration-ms="29" started-at="2020-04-25T15:30:19Z" finished-at="2020-04-25T15:30:19Z">
+      <class name="com.learn.testcases.Login_three">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.learn.testcases.Login_three@343f4d3d]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2020-04-25T15:30:19Z" finished-at="2020-04-25T15:30:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:aabbccdd.Login_two@13deb50e]" name="beforeTest" is-config="true" duration-ms="8582" started-at="2020-04-25T15:03:38Z" finished-at="2020-04-25T15:03:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-04-25T15:03:38Z" finished-at="2020-04-25T15:03:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-04-25T15:03:46Z" finished-at="2020-04-25T15:03:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-04-25T15:03:46Z" finished-at="2020-04-25T15:03:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="f" duration-ms="5" started-at="2020-04-25T15:03:46Z" finished-at="2020-04-25T15:03:46Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.learn.testcases.Login_three@343f4d3d]" name="f" duration-ms="6" started-at="2020-04-25T15:30:19Z" finished-at="2020-04-25T15:30:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-25T15:03:46Z" finished-at="2020-04-25T15:03:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-25T15:03:46Z" finished-at="2020-04-25T15:03:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-04-25T15:03:46Z" finished-at="2020-04-25T15:03:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:aabbccdd.Login_two@13deb50e]" name="afterTest" is-config="true" duration-ms="831" started-at="2020-04-25T15:03:46Z" finished-at="2020-04-25T15:03:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:aabbccdd.Login_four@f6c48ac]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-04-25T15:03:47Z" finished-at="2020-04-25T15:03:47Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.learn.testcases.Login_three@343f4d3d]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-04-25T15:30:19Z" finished-at="2020-04-25T15:30:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- aabbccdd.Login_four -->
-      <class name="aabbccdd.Login_two">
-        <test-method status="PASS" signature="f()[pri:0, instance:aabbccdd.Login_two@13deb50e]" name="f" duration-ms="27" started-at="2020-04-25T15:03:46Z" finished-at="2020-04-25T15:03:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- aabbccdd.Login_two -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.learn.testcases.Login_three -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
