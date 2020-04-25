@@ -1,4 +1,4 @@
-package Xpath;
+package com.learn.automation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

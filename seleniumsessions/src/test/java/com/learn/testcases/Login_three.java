@@ -1,10 +1,10 @@
-package com.learn.testpages;
+package com.learn.testcases;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
-public class loginTest {
+public class Login_three {
 	@Test
 	public void f() {
 

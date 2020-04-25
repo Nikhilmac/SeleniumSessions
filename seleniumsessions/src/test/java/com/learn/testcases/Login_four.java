@@ -10,7 +10,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
-public class Test22 {
+public class Login_four {
 	@Test
 	public void f() {
 		System.out.println("Test");
