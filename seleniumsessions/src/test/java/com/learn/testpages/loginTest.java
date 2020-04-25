@@ -1,4 +1,4 @@
-package org.openqa.selenium.chrome;
+package com.learn.testpages;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeSuite;

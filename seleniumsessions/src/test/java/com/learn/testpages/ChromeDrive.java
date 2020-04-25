@@ -1,4 +1,4 @@
-package org.openqa.selenium.chrome;
+package com.learn.testpages;
 
 public class ChromeDrive {
 	public static void main(String[] args) {
