@@ -10,7 +10,8 @@ import junit.framework.Assert;
 public class Test1 {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 76\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.silentOutput", "true");
+		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 80.3987.106\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://facebook.com");
 		// Locating email web element

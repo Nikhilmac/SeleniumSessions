@@ -11,7 +11,8 @@ import org.openqa.selenium.support.ui.Select;
 public class DropDown {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 74\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.silentOutput", "true");
+		System.setProperty("webdriver.chrome.driver", "E:\\selenium\\Chrome 80.3987.106\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://facebook.com");
 
@@ -39,7 +40,7 @@ public class DropDown {
 //		}
 //		
 		
-		
+		driver.close();
 	}
 
 	public static void selectValueFromDropDown(WebElement element, String value) {
